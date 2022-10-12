@@ -19,7 +19,7 @@ h1 {
 .imagenFondo {
     background-image: url(./multimedia/fondoTransparente.png);
     background-color: #f79fbe5a;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .nombres {
