@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+h1 {
+    color: #863958;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.fondo {
+    width: 100%;
+
+}
+.contenedor {
+    width: 100%;
+
+}
+
+
+.imagenFondo {
+    background-image: url(./multimedia/fondoTransparente.png);
+    background-color: #f79fbe5a;
+    background-size: 100%;
+}
+
+.nombres {
+    font-family:  'Great Vibes', cursive;
+    font-size: 120px;
+    font-weight: 100;
+    text-transform: none;
+    color: #f79fbe
+    ;
+    
+}
+.nombresY {
+    font-family:  'Great Vibes', cursive;
+    font-size: 60px;
+    font-weight: 100;
+    text-transform: none;
+    color: #f79fbe;
+
+        
+}
+
+.time {
+    font-size: 7rem;
+    color: #863958;
+    text-align: center;
+}
+
+.timer {
+    margin-top: 2%;
+    background-color: #cfcecf6f;
+    
+}
+.time-desc {
+    font-size: 2rem;
+    text-align: center;
+    color: #863958
+}
+
+.fiesta {
+    background-color: #f79fbe29;
+    
+}
+.fiesta img {
+    width: 150px;
+}
+
+.fiesta h2 {
+    font-family:  'Great Vibes', cursive;
+    text-align: center;
+    font-size: 6rem;
+    color: #863958
+
+}
+.fiesta p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #863958
+
+}
+
+.boton {
+    width: 15%;
+}
