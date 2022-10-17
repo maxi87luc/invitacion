@@ -27,11 +27,8 @@
                         </div>
                     </div>
                     <div class="row container timer">
-                        <div class="row">
-                            <p class="time col-3">30</p>
-                            <p class="time col-3">24</p>
-                            <p class="time col-3">11</p>
-                            <p class="time col-3">20</p>
+                        <div class="row" id="timer">
+                            
                         </div>
                         <div class="row">
                             <p class="time-desc col-3">DIAS</p>
@@ -50,7 +47,7 @@
             <div class="fiesta d-grid">
                 <div class="container">
                     <center>
-                        <img src="./multimedia/copas.png" class="row" alt="">
+                        <img src="./multimedia/copas.png" class="row logo" alt="">
                         <h2 class="row justify-content-center">Fiesta</h2>
                         <p class="row justify-content-center">La fiesta será el día viernes 11 de Noviembre.</p> <p> Los esperamos a las 18:00 hs en Las Delias, ubicado en calle 578 y Lamadrid, Chivilcoy.</p>
                         <img src="./multimedia/botonUbicacion.png" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="boton" alt="">
@@ -79,19 +76,90 @@
                 </div>
 
             </div>
-            <div class="nuesraHistoria">
+           
+            <div class="regalo">
+                <div class=" d-grid">
+                    <div class="container">
+                        <center>
+                            <img src="./multimedia/regalo.png" class="row logo" alt="">
+                            <h2 class="row justify-content-center">Regalo</h2>
+                            <p class="row justify-content-center">Si queres, podes hacernos un regalo para nuestra boda o luna de miel. Hace clic para ver nuestros datos bancarios y hacer una transferencia o un depósito</p>
+                            
+                            
+                            <img src="./multimedia/BotonDatos.png" type="button" data-bs-toggle="modal" data-bs-target="#datosModal" class="boton" alt="">
+                            
+                            
+                            
+                            <!-- Modal -->
+                            <div class="modal fade" id="datosModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Datos</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h4><strong>CBU: </strong>0170082440000032857830 </h4>
+                                        <h4><strong>Alias: </strong>MINERO.TRAMO.COLINA</h4>
+                                    </div>
+                                    <div class="modal-footer">
+                                        
+                                    
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </center>
+                    </div>
+    
+                </div>
 
             </div>
-            <div class="regalo">
+            <div class="nuestraHistoria">
+                <div class="container">
+                    <center>   
+                        <div class="d-flex justify-content-around">
+                            <img src="./multimedia/flores.jpg" alt="">
+                            <img src="./multimedia/patio1.jpg" alt="">
+                            <img src="./multimedia/patio2.jpg" alt="">
+                        </div>                  
+                       
+
+                        
+                        <p class="row justify-content-center">En el árbol de la vida, hay hojas valiosas que nunca se van a caer. Ustedes, son parte de nuestro árbol y de nuestra maravillosa historia de amor.</p>
+                        <p class="row justify-content-center">Por eso queremos celebrar el amor con ustedes.</p>
+                        
+                    </center>
+                </div>
+               
 
             </div>
             <div class="instagram">
+                <div class="container">
+                    <center> 
+                        <img src="./multimedia/logoIg.png" class="logo" alt="">  
+                        <h2>#BerniYMaxi</h2>
+                        <p>Subí tus fotos y videos con nuestro hashtag en Instagram</p>    
+                        
+                        
+                        <a href=""><img src="./multimedia/instagram.png" class="boton" alt=""></a>                   
+
+                        
+                        
+                        
+                    </center>
+                </div>
+
 
             </div>
         </div>
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+   
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3.0.1/build/global/luxon.min.js"></script>
+    <script src="main.js"></script>
+    
 </body>
 </html>

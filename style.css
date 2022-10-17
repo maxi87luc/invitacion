@@ -24,7 +24,7 @@ h1 {
 
 .nombres {
     font-family:  'Great Vibes', cursive;
-    font-size: 120px;
+    font-size: 7rem;
     font-weight: 100;
     text-transform: none;
     color: #f79fbe
@@ -62,9 +62,7 @@ h1 {
     background-color: #f79fbe29;
     
 }
-.fiesta img {
-    width: 150px;
-}
+
 
 .fiesta h2 {
     font-family:  'Great Vibes', cursive;
@@ -82,5 +80,65 @@ h1 {
 }
 
 .boton {
-    width: 15%;
+    width: 25%;
+}
+
+.regalo {
+    background-color: #f8f8f8;
+}
+.logo {
+    width: 100px;
+}
+.regalo p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #863958
+
+}
+.regalo h2 {
+    font-family:  'Great Vibes', cursive;
+    text-align: center;
+    font-size: 6rem;
+    color: #863958
+
+}
+.regalo h4 {
+   font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #863958
+
+}
+.nuestraHistoria {
+    background-color: #f79fbe29;
+
+}
+.nuestraHistoria p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #863958
+
+}
+.nuestraHistoria img {
+    margin-top: 5%;
+    width: 20%;
+    opacity: 0.8;
+    border-radius: 5%;
+}
+
+.instagram h2 {
+    font-family:  'Great Vibes', cursive;
+    text-align: center;
+    font-size: 6rem;
+    color: #863958
+
+}
+.instagram p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #863958
+
 }
