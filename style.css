@@ -142,3 +142,84 @@ h1 {
     color: #863958
 
 }
+
+
+@media (max-width: 1050px) {
+    .time {
+        font-size: 4rem;
+        color: #863958;
+        text-align: center;
+    }
+    .time-desc {
+        font-size: 1rem;
+        text-align: center;
+        color: #863958
+    }
+    .nombres {
+        font-family:  'Great Vibes', cursive;
+        font-size: 4rem;
+        font-weight: 100;
+        text-transform: none;
+        color: #f79fbe
+        ;
+        
+    }
+    .nombresY {
+        font-family:  'Great Vibes', cursive;
+        font-size: 35px;
+        font-weight: 100;
+        text-transform: none;
+        color: #f79fbe;
+    
+            
+    }
+    
+  }
+
+  @media (max-width: 600px) {
+    h1 {
+        color: #863958;
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.6em;
+    }
+    .time {
+        font-size: 1.5rem;
+        color: #863958;
+        text-align: center;
+    }
+    .time-desc {
+        font-size: 0.5rem;
+        text-align: center;
+        color: #863958
+    }
+    .nombres {
+        font-family:  'Great Vibes', cursive;
+        font-size: 1.7rem;
+        font-weight: 100;
+        text-transform: none;
+        color: #f79fbe
+        ;
+        
+    }
+    .nombresY {
+        font-family:  'Great Vibes', cursive;
+        font-size: 16px;
+        font-weight: 100;
+        text-transform: none;
+        color: #f79fbe;
+    
+            
+    }
+    .instagram h2 {
+        font-family:  'Great Vibes', cursive;
+        text-align: center;
+        font-size: 3rem;
+        color: #863958
+    
+    }
+    .boton {
+        width: 50%;
+    }
+    
+    
+  }
